@@ -26,17 +26,6 @@
 - O(2ⁿ)
 - O(n!)
 
-### Learn to Analyze
-
-- Loops
-- Nested loops
-- Multiple loops
-- Recursive functions
-- Recursion trees
-- Common data-structure operations
-- Sorting algorithms
-- Searching algorithms
-
 ## 1.2 Essential Mathematical Foundations
 
 - Modular arithmetic
