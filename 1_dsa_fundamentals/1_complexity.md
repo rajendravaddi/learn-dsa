@@ -136,18 +136,12 @@ Amortized complexity describes the average cost of operations over a sequence of
 arr.append(x)
 ```
 
-Most appends are approximately:
-```
-O(1)
-```
-Occasionally, the array needs to resize and copy elements:
-```
-O(n)
-```
-But over many append operations, the amortized cost is:
-```
-O(1)
-```
+Most appends are approximately: `O(1)`
+
+Occasionally, the array needs to resize and copy elements: `O(n)`
+
+But over many append operations, the amortized cost is: `O(1)`
+
 
 ## Complexity Classes
 ### 1. O(1) — Constant Time
@@ -201,7 +195,7 @@ Complexity: `O(n)`
 
 ### 4. O(n log n) — Linearithmic Time
 
-`O(n log n)` means the work grows approximately as n × log n.
+`O(n log n)` means the work grows approximately as `n × log n`.
 
 **Common example:** Merge sort
 ```
@@ -213,7 +207,7 @@ Therefore: `O(n log n)`
 
 ### 5. O(n²) — Quadratic Time
 
-`O(n²)` means the work grows approximately as n × n.
+`O(n²)` means the work grows approximately as `n × n`.
 
 **Example:**
 ```py
@@ -222,13 +216,13 @@ for i in range(n):
         print(i, j)
 ```
 
-Number of operations: n × n = n²
+Number of operations: `n × n = n²`
 
 Complexity: `O(n²)`
 
 ### 6. O(n³) — Cubic Time
 
-`O(n³)` means the work grows approximately as n × n × n.
+`O(n³)` means the work grows approximately as `n × n × n`.
 
 **Example:**
 ```py
